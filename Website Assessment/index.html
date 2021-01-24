@@ -1,65 +1,106 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <title>Website Assessment</title>
-    <link type="text/css" href="style.css" rel="stylesheet" />
-    <link type="text/css" href="normalize.css" rel="stylesheet" />
-    
-    <!--On-Page Styles -->
-    <style>
-        header {
-            display: block;
-            height: 955px;
-            width: 100%;
-            background-image: url('img/header-bg.png');
-            background-size: 
-        }
-        .content-wrapper {
-            display: block;
-            position: relative;
-            width: 1420px;
-        }
-        aside {
-            display:
-        }
-        section {
-            display:
-        }
-        .blog-item {
-            display: block;
-        }
-        footer {
-            display: ;
-            background-color: #7d7d7d;
-            color:
-        }
-    </style>
-    
-</head>
-<body>	
-    <header>
-        <a id="logo" href="index.html" title=""><img src="img/logo" /></a>
-    </header>
-    
-    <section>
-        <h2>About Us</h2>
-    </section>
-    
-    <aside>
-        
-        <div class="blog-item">
-            <img src="img/item-1.png" alt="Do More computer" />
-            <h3></h3>
-        </div>
-        
-    </aside>
-    
-    <div id="social-footer">
-        <a href="http://www.facebook.com"><img src="img/fb-icon.png" alt="" /></a>
-        <a title="Code Authority Twitter"><img src="img/twt-icon.png" alt="" /></a>
-        <a><img src="img/li-icon.png" alt="" /></a>
-    </div>
-    
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <title>Website Assessment</title>
+        <link type="text/css" href="style/style.css" rel="stylesheet" />
+        <link type="text/css" href="style/footer.css" rel="stylesheet" />
+        <link type="text/css" href="style/header.css" rel="stylesheet" />
+        <link type="text/css" href="style/fonts.css" rel="stylesheet" />
+        <link type="text/css" href="style/copysection.css" rel="stylesheet" />
+        <link type="text/css" href="Font-Awesome/css/fontawesome.min.css" rel="stylesheet" />
+        <link type="text/css" href="Font-Awesome/css/all.min.css" rel="stylesheet" />
+    </head>
+    <body>	
+        <container class="my-container">
+            <header class="header-style">
+                <a class="logo" href="index.html" title="Website Assessment">
+                    <img id="logo" src="Images/Website-Assessment graphics_WAlogo.png" />
+                </a>
+                <div class="header-nav-bar">
+                        <a class="header-nav-link" href="index.html" title="home" > HOME </a>
+                        <a class="header-nav-link" href="" title="work" > WORK </a>
+                        <a class="header-nav-link" href="" title="about" > ABOUT </a>
+                        <a class="header-nav-link" href="" title="contact" > CONTACT</a>
+                </div>
+            </header>
+            
+            <div class="mac-image">
+                <img id="mac-image" src="Images/MacMonitorCALogo-07.jpg">
+            </div>
+
+            <div class="copy-section">
+                <section class="copy-section-elements"> 
+                    <div class="copy-row">
+                        <h2 class="copy-label">About Us</h2>
+                        <p class="copy-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida mi quis placerat auctor. Maecenas nec nisl pretium, rutrum est at, congue magna. Vivamus dui sem, luctus sit amet nisi eget, molestie varius augue. Nulla pharetra nulla est, id commodo nisl fermentum finibus. Fusce eget eros non odio fermentum porttitor sit amet sit amet mauris. Donec eu ex ultricies, mollis diam et, cursus metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer a lobortis ante. Praesent congue magna non velit mollis feugiat. Cras sapien nunc, laoreet ac tellus eget, tempus rhoncus lectus. In vulputate tellus in massa ultrices rhoncus. </p>
+                        <p class="copy-p">Vivamus luctus laoreet arcu, sit amet convallis eros. Donec pulvinar, libero eu blandit maximus, eros metus faucibus erat, non mollis nisl augue nec libero. Curabitur nibh lacus, pellentesque malesuada lorem sit amet, mattis porttitor tellus. Quisque nec lacinia ex. Vestibulum tincidunt, nisl quis aliquet suscipit, urna enim scelerisque urna, a pharetra arcu sem sed dui. Nunc orci ipsum, molestie ac convallis id, auctor vel mauris. Vestibulum ornare ullamcorper elit, ac condimentum velit laoreet consequat. Integer in venenatis turpis. Phasellus egestas vestibulum enim. Aenean eu interdum neque, vitae faucibus massa. Sed volutpat posuere cursus. Fusce eu ex porta elit aliquet tincidunt sed vel felis.</p>
+                    </div>
+                    <div class="copy-row contact-us-section">
+                        <h2 class="copy-label">Contact Us</h2>
+                        <div class="contact-info copy-row">
+                            <div class="sm-col">
+                                <p class="copy-p contact-p">Frisco Headquarters</p>
+                                <p class="copy-p contact-p">Software Development Office</p>
+                                <p class="copy-p contact-p">3001 Dallas Pkwy #500</p>
+                                <p class="copy-p contact-p">Frisco, TX 75034</p>
+                            </div>
+                            <div class="sm-col">
+                                <p class="copy-p contact-p">Toll Free: (888)346-6334</p> 
+                                <p class="copy-p contact-p">Local (214)774-4262</p>
+                            </div >
+                        </div>
+                    </div>                
+                </section>
+
+                <div class="spacer">
+                    <div class="green-line">   </div>
+                </div>
+
+                <aside class-name="BlogSection copy-row">
+                    <div>
+                        <h2 class="copy-label">Blog</h2>
+                    </div>
+                    <div class="blog-item copy-row">
+                        <img class="blog-thumbnail" src="images/Work-From-Home_Blog-1920x1080.jpg" alt="Do More computer" />
+                        <h4 class="blog-title">So you want to work at Code Authority?</h4>
+                    </div>
+                    <div class="blog-item copy-row">
+                        <img class="blog-thumbnail" src="images/Man and Charts.jpg" alt="Man looking at charts" />
+                        <h4 class="blog-title"> Become the best developer you can be</h4>
+                    </div>
+                </aside>
+            </div>
+            
+            <footer class= "footer-style">
+                <div class="footer-col1"></div>
+                <div class="footer-col2">
+                    <div class="footer-nav-bar">
+                        <a class="footer-nav-link" href="index.html" title="home" > HOME </a>
+                        <a class="footer-nav-link" href="" title="work" > WORK </a>
+                        <a class="footer-nav-link" href="" title="about" > ABOUT </a>
+                        <a class="footer-nav-link" href="" title="contact" > CONTACT </a>
+                    </div>
+                    <div id="social-footer">
+                        <a href="https://www.facebook.com/CodeAuthority/" title="facebook">
+                            <!-- <img src="images/facebook-square.svg" alt="facebook" /> -->
+                            <i class="fab fa-facebook-square fa-icon"></i>
+                        </a>
+                        <a href="https://twitter.com/CodeAuthority" title="twitter">
+                            <!-- <img src="images/twitter-square.svg" alt="facebook" /> -->
+                            <i class="fab fa-twitter-square fa-icon"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/code-authority/" title="linkedin">
+                            <!-- <img src="images/linkedin.svg" alt="linkedin" /> -->
+                            <i class="fab fa-linkedin fa-icon"></i>
+                        </a>
+                    </div>
+                    <p class="p-footer">Privacy Policy | Copyright 2017</p>
+                </div>
+                <div class="footer-col1">
+                    <p class="p-footer footer-phone">(218) 774-4262</p>
+                </div>
+            </footer>   
+        </container>
+    </body>
 </html>
