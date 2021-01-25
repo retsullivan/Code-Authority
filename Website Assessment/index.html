@@ -2,12 +2,17 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Website Assessment</title>
-        <link type="text/css" href="style/style.css" rel="stylesheet" />
+        <title>Code Authority|Website Assessment</title>
+        <meta name="title" content="Technical Interview | Code Authority">
+        <meta name="title" content="Design Examples | Code Authority">
+        <meta name="description" content="Analyze an image, and recreate it with HTML and CSS. Bonus points if you make it responsive!">
+        <link rel="shortcut icon" href="Images/favicon_io/favicon.ico" type="image/x-icon"/>
+
         <link type="text/css" href="style/footer.css" rel="stylesheet" />
         <link type="text/css" href="style/header.css" rel="stylesheet" />
         <link type="text/css" href="style/fonts.css" rel="stylesheet" />
         <link type="text/css" href="style/copysection.css" rel="stylesheet" />
+        <link type="text/css" href="style/style.css" rel="stylesheet" />
         <link type="text/css" href="Font-Awesome/css/fontawesome.min.css" rel="stylesheet" />
         <link type="text/css" href="Font-Awesome/css/all.min.css" rel="stylesheet" />
     </head>
@@ -25,7 +30,7 @@
                 </div>
             </header>
             
-            <div class="mac-image">
+            <div class="mac-image-container">
                 <img id="mac-image" src="Images/MacMonitorCALogo-07.jpg">
             </div>
 
@@ -38,34 +43,34 @@
                     </div>
                     <div class="copy-row contact-us-section">
                         <h2 class="copy-label">Contact Us</h2>
-                        <div class="contact-info copy-row">
-                            <div class="sm-col">
+                        <div id="contact-info" class="contact-info-row">
+                            <div class="contact-info-box">
                                 <p class="copy-p contact-p">Frisco Headquarters</p>
                                 <p class="copy-p contact-p">Software Development Office</p>
                                 <p class="copy-p contact-p">3001 Dallas Pkwy #500</p>
                                 <p class="copy-p contact-p">Frisco, TX 75034</p>
                             </div>
-                            <div class="sm-col">
-                                <p class="copy-p contact-p">Toll Free: (888)346-6334</p> 
-                                <p class="copy-p contact-p">Local (214)774-4262</p>
+                            <div class="contact-info-box">
+                                <p class="copy-p contact-p">Toll Free: (888) 346-6334</p> 
+                                <p class="copy-p contact-p">Local (214) 774-4262</p>
                             </div >
                         </div>
                     </div>                
                 </section>
 
-                <div class="spacer">
+                <div>
                     <div class="green-line">   </div>
                 </div>
 
-                <aside class-name="BlogSection copy-row">
+                <aside class-name="blog-section">
                     <div>
                         <h2 class="copy-label">Blog</h2>
                     </div>
-                    <div class="blog-item copy-row">
+                    <div class="blog-item">
                         <img class="blog-thumbnail" src="images/Work-From-Home_Blog-1920x1080.jpg" alt="Do More computer" />
                         <h4 class="blog-title">So you want to work at Code Authority?</h4>
                     </div>
-                    <div class="blog-item copy-row">
+                    <div class="blog-item">
                         <img class="blog-thumbnail" src="images/Man and Charts.jpg" alt="Man looking at charts" />
                         <h4 class="blog-title"> Become the best developer you can be</h4>
                     </div>

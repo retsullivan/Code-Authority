@@ -3,6 +3,7 @@ body{
     max-width:1920px;
     margin:0px;
 }
+
 .my-container{
     display:flex;
     flex-direction:column;
@@ -12,7 +13,7 @@ body{
     margin:0;
 }
 
-.mac-image{
+.mac-image-container{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -20,9 +21,18 @@ body{
 
 }
 #mac-image {
-    width:90vw;
+    width:100%;
     max-height:836.856px; 
     z-index: -1;
     margin:0px;
     object-fit: contain;
+}
+
+@media only screen and (max-width: 767px) {
+    .mac-image-container{
+      display:block
+    }
+    #mac-image{
+      width:100%;
+    }
 }
