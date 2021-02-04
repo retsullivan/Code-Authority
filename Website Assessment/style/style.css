@@ -69,16 +69,20 @@ body{
       #mac-image{
         width:none;
     }
+
     .under-footer-spacer{
         display:none;
-    }
+    }    
+
+}
+
+@media only screen and (max-width: 1024px) and (min-height: 541px){
     .under-footer-spacer{
         display:block;
         height:100px;
         width:100%;
         background-color: transparent;
     }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -110,7 +114,7 @@ body{
     }
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 415px){
     .under-header-spacer{
         height:70px;
         width:100%;
@@ -132,4 +136,10 @@ body{
         max-height:70px;
     }
 
+}
+
+@media only screen and (max-height: 540px){
+    .under-footer-spacer{
+        display:none;
+    }
 }
