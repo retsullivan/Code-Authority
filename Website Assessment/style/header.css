@@ -13,18 +13,29 @@
     display:flex;
     width:40vw;
     height:auto;
-    /* justify-content:flex-start; */
     justify-content:flex-start;
     justify-items:flex-start;
     align-content: center;
     align-items: center;
-    /* margin-right:1vw; */
-
 }
-#logo {
+
+#logo-id {
     height:8vw;
     max-height:5vw;
     object-fit: contain;
+}
+
+.logo-tablet{
+    display: none;
+}
+#logo-tablet-id{
+    display:none;
+}
+.logo-mobile{
+    display:none;
+}
+.logo-mobile-id{
+    display:none;
 }
 
 .header-nav-bar{
@@ -34,16 +45,212 @@
     align-items:center;
     justify-content:flex-end;
     justify-items:flex-end;
-    /* margin-left: 1vw; */
     width:40vw;
     height:auto;
     color:#4a4a4a;    
 }
 
+.sandwich-menu{
+    display:none;
+}
+
+.fas.fa-bars{
+    display:none;
+    font-weight:700;
+}
+
 .header-nav-link{
     font-family:Arial, Helvetica, sans-serif;
     font-weight:600;
-    /* font-size:medium; */
-    font-size: clamp(10px,1.5vw,20px);
+    font-size: 18px;
     margin:1vw;
+}
+
+@media only screen and (max-width: 1366px) {
+    .header-style{
+        position: fixed;
+        top:0;
+        left:0;
+        height:120px;
+        width:100%;
+        padding:0vw 10vw;
+        background-color: #0e5478;
+        color:white;
+    }
+    .header-nav-link{
+        font-size: 16px;
+        color:white;
+    }
+
+    .logo{
+        display:none
+    }
+    #logo-id{
+        display:none;
+    }
+
+    .logo-tablet{
+        display:flex;
+        width:40vw;
+        height:auto;
+        justify-content:flex-start;
+        justify-items:flex-start;
+        align-content: center;
+        align-items: center;
+    }
+    #logo-tablet-id{
+        display:block; 
+        height:70px;
+        width:auto;
+        object-fit: contain;
+        justify-items:center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .header-nav-bar{
+        display:flex;
+        justify-self: flex-end;
+        justify-content: flex-end;
+        align-content: center;
+    }
+
+    .fas.fa-bars{
+        color:white;
+        display:block;
+        font-size:70px;
+    }
+    .fas.fa-bars:hover{
+        color:#c2e0ed;
+    }
+    .fas.fa-bars:active{
+        color:#3195b4;       
+    }
+    
+    .dropdown-button {
+        padding-bottom: 5px;
+        border: none;
+        cursor: pointer;
+    }
+      
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown:active .dropdown-content {
+        display: block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c2e0ed;
+    min-width: 160px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    right:0;
+    z-index: 1;
+    }
+    
+    .dropdown-content a {
+    color: #0e5478;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+            
+}
+
+@media only screen and (max-width: 768px) {
+    .header-style{
+        position: fixed;
+        top:0;
+        left:0;
+        height:100px;
+        width:100%;
+        padding:0vw 10vw;
+        background-color: #0e5478;
+        color:white;
+    }
+    .header-nav-link{
+        font-size: 16px;
+        color:white;
+    }
+
+    .logo{
+        display:none
+    }
+    #logo-id{
+        display:none;
+    }
+
+    .logo-tablet{
+        display:flex;
+        width:40vw;
+        height:auto;
+        justify-content:flex-start;
+        justify-items:flex-start;
+        align-content: center;
+        align-items: center;
+    }
+    #logo-tablet-id{
+        display:block; 
+        height:60px;
+        width:auto;
+        object-fit: contain;
+        justify-items:center;
+        justify-content: center;
+    }
+
+    .fas.fa-bars{
+        font-size:60px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .header-nav-link{
+        font-size: 14px;
+        color:white;
+    }
+    .header-style{
+        position: fixed;
+        top:0;
+        left:0;
+        height:70px;
+        width:100%;
+        padding:0vw 10vw;
+        background-color: #0e5478;
+        color:white;
+    }
+
+    .logo{display:none}
+    #logo-id{display:none;}
+    .logo-tablet{display:none;}
+    #logi-tablet-id{display:none;}
+
+    .logo-mobile{
+        display:flex;
+        width:40vw;
+        height:auto;
+        justify-content:flex-start;
+        justify-items:flex-start;
+        align-content: center;
+        align-items: center;
+    }
+    #logo-mobile-id{
+        display:block; 
+        height:40px;
+        width:auto;
+        object-fit: contain;
+        justify-items:center;
+        justify-content: center;
+    }
+    .fas.fa-bars{
+        font-size:40px;
+    }
 }

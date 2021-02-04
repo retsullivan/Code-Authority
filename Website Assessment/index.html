@@ -22,18 +22,34 @@
         <container class="my-container">
             <header class="header-style">
                 <a class="logo" href="index.html" title="Website Assessment">
-                    <img id="logo" src="Images/Website-Assessment graphics_WAlogo.png" />
+                    <img id="logo-id" src="Images/Website-Assessment graphics_WAlogo.png" />
+                </a>
+                <a class="logo-tablet" href="index.html" title="Website Assessment">
+                    <img id="logo-tablet-id" src="Images/White-alt-web-assessment.png" />
+                </a>
+                <a class="logo-mobile" href="index.html" title="Website Assessment">
+                    <img id="logo-mobile-id" src="Images/WA-White-Logo.png" />
                 </a>
                 <div class="header-nav-bar">
-                        <a class="header-nav-link" href="index.html" title="home" > HOME </a>
-                        <a class="header-nav-link" href="" title="work" > WORK </a>
-                        <a class="header-nav-link" href="" title="about" > ABOUT </a>
-                        <a class="header-nav-link" href="" title="contact" > CONTACT</a>
+                    <div class="dropdown">
+                        <div class="dropdown-button">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <div class="dropdown-content">
+                            <a class="header-nav-link" href="index.html" title="home" > HOME </a>
+                            <a class="header-nav-link" href="" title="work" > WORK </a>
+                            <a class="header-nav-link" href="" title="about" > ABOUT </a>
+                            <a class="header-nav-link" href="" title="contact" > CONTACT</a>
+                        </div>
+                    </div>
                 </div>
             </header>
-            
+            <div class="under-header-spacer"></div>
             <div class="mac-image-container">
                 <img id="mac-image" src="Images/MacMonitorCALogo-07.jpg">
+            </div>
+            <div class="ca-logo-image-container">
+                <img id="ca-image" src="Images/CA-logo-mobile-15.png">
             </div>
 
             <div class="copy-section">
@@ -68,18 +84,22 @@
                     <div>
                         <h2 class="copy-label">Blog</h2>
                     </div>
-                    <div class="blog-item">
-                        <img class="blog-thumbnail" src="images/Work-From-Home_Blog-1920x1080.jpg" alt="Do More computer" />
-                        <h4 class="blog-title">So you want to work at Code Authority?</h4>
+                    <div class="blog-layout-flip-toggle">
+                        <div class="blog-item">
+                            <img class="blog-thumbnail" src="images/Work-From-Home_Blog-1920x1080.jpg" alt="Do More computer" />
+                            <h4 class="blog-title">So you want to work at Code Authority?</h4>
+                        </div>
+                        <div class="blog-item">
+                            <img class="blog-thumbnail" src="images/man-and-charts-CROPPED.jpg" alt="Man looking at charts" />
+                            <h4 class="blog-title"> Become the best developer you can be</h4>
+                        </div>
                     </div>
-                    <div class="blog-item">
-                        <img class="blog-thumbnail" src="images/Man and Charts.jpg" alt="Man looking at charts" />
-                        <h4 class="blog-title"> Become the best developer you can be</h4>
-                    </div>
-                </aside>
+                </aside>   
             </div>
+            <div class="under-footer-spacer"></div>
             
-            <footer>
+            
+            <footer class="mobile-footer">
                 <div class="pre-footer-stripe"></div>
                 <div class= "footer-style">
                     <div class="footer-col1"></div>
@@ -92,16 +112,13 @@
                         </div>
                         <div id="social-footer">
                             <a href="https://www.facebook.com/CodeAuthority/" title="facebook">
-                                <!-- <img src="images/facebook-square.svg" alt="facebook" /> -->
-                                <i class="fab fa-facebook-square fa-icon"></i>
+                                 <i class="fab fa-facebook-square fa-icon"></i>
                             </a>
                             <a href="https://twitter.com/CodeAuthority" title="twitter">
-                                <!-- <img src="images/twitter-square.svg" alt="facebook" /> -->
-                                <i class="fab fa-twitter-square fa-icon"></i>
+                                 <i class="fab fa-twitter-square fa-icon"></i>
                             </a>
                             <a href="https://www.linkedin.com/company/code-authority/" title="linkedin">
-                                <!-- <img src="images/linkedin.svg" alt="linkedin" /> -->
-                                <i class="fab fa-linkedin fa-icon"></i>
+                                 <i class="fab fa-linkedin fa-icon"></i>
                             </a>
                         </div>
                         <p class="p-footer">Privacy Policy | Copyright 2017</p>

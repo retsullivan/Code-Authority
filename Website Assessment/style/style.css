@@ -28,11 +28,108 @@ body{
     object-fit: contain;
 }
 
-@media only screen and (max-width: 767px) {
+.ca-logo-image-container{
+    display:none
+}
+#ca-image{
+    display:none;
+}
+
+.under-header-spacer{
+    display:none;
+}
+
+
+
+@media only screen and (max-width:1366px){
+    .under-header-spacer{
+        display:block; 
+        height:120px;
+        width:100%;
+        background-color: transparent;
+    }
+    .ca-logo-image-container{
+        display:block;
+        /* width:100%; */
+        justify-items:center;
+        justify-content: center;
+        padding: 5vw 10vw 5vw 10vw;
+    }
+    #ca-image{
+        display:block; 
+        width:80vw;
+        object-fit: contain;
+        justify-items:center;
+        justify-content: center;
+    }
+
     .mac-image-container{
-      display:block
+        display:none;
+      }
+      #mac-image{
+        width:none;
+    }
+    .under-footer-spacer{
+        display:none;
+    }
+    .under-footer-spacer{
+        display:block;
+        height:100px;
+        width:100%;
+        background-color: transparent;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .under-header-spacer{
+        display:block;
+        height:100px;
+        width:100%;
+        background-color: transparent;
+    }
+    .ca-logo-image-container{
+        display:block;
+        /* width:100%; */
+        justify-items:center;
+        justify-content: center;
+        padding: 8vw 10vw;
+    }
+    #ca-image{
+        display:block; 
+        width:80vw;
+        object-fit: contain;
+        justify-items:center;
+        justify-content: center;
+    }
+    .mac-image-container{
+      display:none;
     }
     #mac-image{
-      width:100%;
+      width:none;
     }
+}
+
+@media only screen and (max-width: 415px) {
+    .under-header-spacer{
+        height:70px;
+        width:100%;
+        background-color: transparent;
+    }
+    .ca-logo-image-container{
+        display:block;
+        width:100%;
+        justify-items:center;
+        justify-content: center;
+        padding: 10vw;
+    }
+    #ca-image{
+        display:block; 
+        width:80vw;
+        object-fit: contain;
+        justify-items:center;
+        justify-content: center;
+        max-height:70px;
+    }
+
 }
