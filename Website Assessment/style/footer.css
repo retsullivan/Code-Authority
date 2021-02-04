@@ -40,7 +40,7 @@
     margin:1vw .5vw;
  }
 
- #social-footer{
+ .social-footer{
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -49,7 +49,7 @@
 
  .fa-icon{
      color:white;
-     font-size: 2vw;
+     font-size: 40px;
      margin:1vw;
  }
  .fa-icon:hover{
@@ -64,7 +64,6 @@
      font-family:Arial, Helvetica, sans-serif;
      font-weight:lighter;
      font-size:max(.3vw,10px);
-     margin-bottom:1vw;
      margin-top:0px;
  }
  .footer-phone{
@@ -83,13 +82,13 @@
      }
  }
 
- @media only screen and (max-width: 1024px) {
+ @media only screen and (max-width: 1024px){
     .mobile-footer{
         position:fixed;
         bottom:0;
         left:0;
         width:100%;
-        min-height:70px;
+        min-height:60px;
     }
     .pre-footer-stripe{
         margin:0px;
@@ -110,13 +109,20 @@
     .footer-col2{
         display:block;
         justify-content: center;
+        justify-items: center;
+        align-content: space-between;
+        align-items: space-between;
         width:100%;
-        padding:2vw 0px 1vw;
+        padding:1vw 0px 1vw;
     }
     .footer-col1{
         display: block;
         justify-content: center;
         width:100%
+    }
+
+    .social-footer{
+        margin: .5vw 0px;
     }
     .fa-icon{
         font-size:30px;
@@ -124,7 +130,60 @@
     }
     .p-footer{
         margin-top: .5vw;
+        margin-block-end: 0px
     }
  }
+
+ /* @media only screen and (max-height: 541px){
+    .mobile-footer{
+        position:fixed;
+        bottom:0;
+        left:0;
+        width:100%;
+        min-height:60px;
+    }
+    .pre-footer-stripe{
+        margin:0px;
+    }
+    .footer-style{
+        display:block;
+        justify-content: center;
+        margin:0px;
+        background-color: #0e5478;
+
+    }
+    .footer-nav-bar{
+        display:none;
+    }
+    .footer-phone{
+        display:none;
+    }
+    .footer-col2{
+        display:block;
+        justify-content: center;
+        justify-items: center;
+        align-content: space-between;
+        align-items: space-between;
+        width:100%;
+        padding:1vw 0px 1vw;
+    }
+    .footer-col1{
+        display: block;
+        justify-content: center;
+        width:100%
+    }
+
+    .social-footer{
+        margin: .5vw 0px;
+    }
+    .fa-icon{
+        font-size:30px;
+        margin:0px 10px;
+    }
+    .p-footer{
+        margin-top: .5vw;
+        margin-block-end: 0px
+    }
+ } */
 
 
