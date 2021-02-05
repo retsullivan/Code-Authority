@@ -49,22 +49,22 @@
     height:auto;
     color:#4a4a4a;    
 }
-
-.sandwich-menu{
-    display:none;
-}
-
-.fas.fa-bars{
-    display:none;
-    font-weight:700;
-}
-
 .header-nav-link{
     font-family:Arial, Helvetica, sans-serif;
     font-weight:600;
     font-size: 18px;
     margin:1vw;
 }
+
+.sandwich-menu{
+    display:none;
+}
+.fas.fa-bars{
+    display:none;
+    font-weight:700;
+}
+
+
 
 @media only screen and (max-width: 1366px) {
     .header-style{
@@ -88,7 +88,6 @@
     #logo-id{
         display:none;
     }
-
     .logo-tablet{
         display:flex;
         width:40vw;
@@ -115,7 +114,6 @@
         justify-content: flex-end;
         align-content: center;
     }
-
     .fas.fa-bars{
         color:white;
         display:block;
@@ -127,14 +125,13 @@
     .fas.fa-bars:active{
         color:#3195b4;       
     }
-    
     .dropdown-button {
         padding-bottom: 5px;
         border: none;
         cursor: pointer;
     }
       
-    /* The container <div> - needed to position the dropdown content */
+    /* The container that positions the dropdown content */
     .dropdown {
     position: relative;
     display: inline-block;
@@ -146,7 +143,7 @@
         display: block;
     }
     
-    /* Dropdown Content (Hidden by Default) */
+    /* Dropdown Content - not displayed unless toggled */
     .dropdown-content {
     display: none;
     position: absolute;
@@ -156,7 +153,6 @@
     right:0;
     z-index: 1;
     }
-    
     .dropdown-content a {
     color: #0e5478;
     padding: 12px 16px;
@@ -188,7 +184,6 @@
     #logo-id{
         display:none;
     }
-
     .logo-tablet{
         display:flex;
         width:40vw;

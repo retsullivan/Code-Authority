@@ -6,12 +6,10 @@
     padding-right:15vw;
     padding-bottom:5vw;
 }
-
 .copy-row{
     padding:0px;
     margin:0px;
 }
-
 .copy-section-elements{
     display:flex;
     flex-direction:column;
@@ -21,7 +19,6 @@
     align-content: flex-start;
     width:35vw;
 }
-
 .copy-label{
     display:flex;
     font-family:Arial, Helvetica, sans-serif;
@@ -46,7 +43,6 @@
     padding:0px;
     margin:0px;
 }
-
 .contact-info-box{
     margin-right:1vw;
     display:block;
@@ -62,7 +58,6 @@
     line-height: .25em;
     font-size: 16px;
 }
-
 
 .green-line{
     width:.125vw;
