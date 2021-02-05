@@ -1,19 +1,13 @@
-
-.pre-footer-stripe{
-    height:2vw;
-    min-height:3px;
-    max-height:5px;
-    background-color:#3195b4;
-    margin:0px;
-}
 .footer-style{
     display:flex;
     flex-direction:row;
     background-color: #7d7d7d;
     margin: 0px;
     color:white;
-    padding: 1vw 0vw;
+    padding: 1vw 10vw;
+    border-top: 5px solid #3195b4;
 }
+
 .footer-col2{
     display:flex;
     flex-direction:column;
@@ -22,6 +16,7 @@
     align-content: center;
     text-align: center;
 }
+
 .footer-col1{
     display:flex;
     flex-direction:column;
@@ -37,6 +32,7 @@
     font-size:max(.3vw,10px);
     margin:1vw .5vw;
  }
+
  .social-footer{
     display: flex;
     flex-direction: row;
@@ -69,23 +65,7 @@
     text-align: left;
  }
 
-
-@media only screen and (max-width: 1367px){
-    .p-footer.footer-phone{
-        display:none;
-    }
-    .footer-style{
-        background-color: #0e5478;
-    }
-}
-
-@media only screen and (max-width:767){
-    .pre-footer-stripe{
-        display:none;
-    }
-}
-
-@media only screen and (max-width: 1024px) and (min-height: 541px){
+@media only screen and (max-width: 1366px) and (min-height: 541px){
     .mobile-footer{
         position:fixed;
         bottom:0;
@@ -93,15 +73,11 @@
         width:100%;
         min-height:60px;
     }
-    .pre-footer-stripe{
-        margin:0px;
-    }
     .footer-style{
         display:block;
         justify-content: center;
         margin:0px;
         background-color: #0e5478;
-
     }
     .footer-nav-bar{
         display:none;
@@ -123,6 +99,7 @@
         justify-content: center;
         width:100%
     }
+
     .social-footer{
         margin: .5vw 0px;
     }
@@ -136,11 +113,8 @@
     }
  }
 
+
  @media only screen and (max-height: 540px){
-   
-    .pre-footer-stripe{
-        margin:0px;
-    }
     .footer-style{
         display:block;
         justify-content: center;
@@ -165,8 +139,9 @@
     .footer-col1{
         display: block;
         justify-content: center;
-        width:100%;
+        width:100%
     }
+
     .social-footer{
         margin: .5vw 0px;
     }
@@ -179,5 +154,4 @@
         margin-block-end: 0px
     }
 }
-
 
